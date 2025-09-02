@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Epic Universe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <!-- Header y Navegación -->
+    <header class="bg-gray-800 shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <a href="#inicio" class="text-2xl font-bold text-yellow-300">Epic Universe</a>
+            <ul class="flex flex-wrap justify-center sm:justify-start gap-4 sm:gap-6 mt-4 sm:mt-0">
+                <li><a href="#inicio" class="hover:text-yellow-300 transition-colors">Inicio</a></li>
+                <li><a href="#mundos" class="hover:text-yellow-300 transition-colors">Mundos</a></li>
+                <li><a href="#gastronomia" class="hover:text-yellow-300 transition-colors">Gastronomía</a></li>
+                <li><a href="#planifica" class="hover:text-yellow-300 transition-colors">Planifica</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        
+        <!-- Sección de Inicio -->
+        <section id="inicio" class="text-center py-20 rounded-xl shadow-lg mb-12 relative" style="background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-theme-park-chronos-daytime-with-guests-a.jpg'); background-size: cover; background-position: center;">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-[#1f2937] mb-4 animate-pulse">
+                Universal Epic Universe
+            </h1>
+            <p class="text-xl md:text-2xl text-[#1f2937] max-w-3xl mx-auto text-shadow-subtle">
+                Descubre el nuevo mundo de aventura de Universal Orlando Resort, donde la fantasía se hace realidad.
+            </p>
+            <a href="#mundos" class="mt-8 inline-block bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-yellow-300 transform transition-transform duration-300 hover:scale-105">
+                Explora los Mundos
+            </a>
+        </section>
+
+        <!-- Sección de Mundos -->
+        <section id="mundos" class="mb-12 flex justify-center">
+            <div class="max-w-7xl">
+                <h2 class="text-4xl md:text-5xl font-bold text-center mb-10 text-white">
+                    Los 5 Mundos
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
+                    
+                    <!-- Celestial Park -->
+                    <a href="#celestial-park" class="block rounded-2xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105">
+                        <div class="aspect-[7/3] bg-cover bg-center" style="background-image: url('https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-celestial-park-logo-keyart-rendering-cf-a.jpg');">
+                        </div>
+                        <p class="text-xl font-bold text-center mt-2">Celestial Park</p>
+                    </a>
+
+                    <!-- The Wizarding World of Harry Potter -->
+                    <a href="#potter" class="block rounded-2xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105">
+                        <div class="aspect-[7/3] bg-cover bg-center" style="background-image: url('https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-wwhp-ministry-of-magic-logo-portal-rendering-cf-a.jpg');">
+                        </div>
+                        <p class="text-xl font-bold text-center mt-2">The Wizarding World of Harry Potter</p>
+                    </a>
+                    
+                    <!-- Super Nintendo World -->
+                    <a href="#nintendo" class="block rounded-2xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105">
+                        <div class="aspect-[7/3] bg-cover bg-center" style="background-image: url('https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-super-nintendo-world-logo-portal-rendering-cf-a.jpg');">
+                        </div>
+                        <p class="text-xl font-bold text-center mt-2">Super Nintendo World</p>
+                    </a>
+
+                    <!-- How to Train Your Dragon -->
+                    <a href="#dragon" class="block rounded-2xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105">
+                        <div class="aspect-[7/3] bg-cover bg-center" style="background-image: url('https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-httyd-isle-of-berk-logo-portal-rendering-cf-a.jpg');">
+                        </div>
+                        <p class="text-xl font-bold text-center mt-2">How to Train Your Dragon</p>
+                    </a>
+
+                    <!-- Dark Universe -->
+                    <a href="#dark-universe" class="block rounded-2xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105">
+                        <div class="aspect-[7/3] bg-cover bg-center" style="background-image: url('https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-dark-universe-logo-portal-rendering-cf-a.jpg');">
+                        </div>
+                        <p class="text-xl font-bold text-center mt-2">Dark Universe</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secciones detalladas de cada mundo -->
+        <section id="celestial-park" class="mb-12 p-8 rounded-xl bg-gray-800 shadow-xl">
+            <h2 class="text-3xl font-bold text-white mb-4">Celestial Park</h2>
+            <p class="text-gray-300 mb-6">Celestial Park es el corazón del parque, una encrucijada de jardines, fuentes y arquitectura futurista. Es la primera zona que explorarás y un hub central que te conecta con los otros cuatro mundos.</p>
+            <div class="flex flex-col md:flex-row gap-6 items-center">
+                <img id="celestial-park-image" src="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-celestial-park-stardust-racers-exterior-front-zoomed-out-a.jpg" alt="Stardust Racers" class="rounded-xl shadow-lg w-full md:w-1/2">
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-white mb-2">Atracciones</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>
+                            <strong class="text-yellow-300 cursor-pointer" data-image="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-celestial-park-stardust-racers-exterior-front-zoomed-out-a.jpg">Stardust Racers:</strong> Una emocionante montaña rusa de doble carril.
+                        </li>
+                        <li>
+                            <strong class="text-yellow-300 cursor-pointer" data-image="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-cp-constellation-carousel-lake-exterior-a.jpg">Constellation Carousel:</strong> Un ingenioso carrusel donde los carruajes de constelaciones giran 360 grados y se elevan en el aire.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="potter" class="mb-12 p-8 rounded-xl bg-gray-800 shadow-xl">
+            <h2 class="text-3xl font-bold text-white mb-4">The Wizarding World of Harry Potter - Ministry of Magic</h2>
+            <p class="text-gray-300 mb-6">Sumérgete en el mundo mágico con una nueva aventura que fusiona el París de los años 20 con el icónico Ministerio de Magia británico.</p>
+            <div class="flex flex-col md:flex-row gap-6 items-center">
+                <img src="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-wwohp-hpbatm-metro-floo-render-a.jpg" alt="Atracción Harry Potter" class="rounded-xl shadow-lg w-full md:w-1/2">
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-white mb-2">Atracción Principal</h3>
+                    <p class="text-gray-300">
+                        <strong class="text-yellow-300">Harry Potter and the Battle at the Ministry:</strong> Un viaje oscuro que te sumerirá en una batalla mágica épica.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="nintendo" class="mb-12 p-8 rounded-xl bg-gray-800 shadow-xl">
+            <h2 class="text-3xl font-bold text-white mb-4">Super Nintendo World</h2>
+            <p class="text-gray-300 mb-6">Viaja al Reino Champiñón y vive tus videojuegos favoritos. Recoge monedas con tu Power-Up Band y explora el mundo de Mario y sus amigos.</p>
+            <div class="flex flex-col md:flex-row gap-6 items-center">
+                <img id="nintendo-image" src="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-super-nintendo-world-bowsers-challenge-interior-a.jpg" alt="Atracción Mario Kart" class="rounded-xl shadow-lg w-full md:w-1/2">
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-white mb-2">Atracciones</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>
+                            <strong class="text-yellow-300 cursor-pointer" data-image="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-super-nintendo-world-mkbc-load-render-a.jpg">Mario Kart: Bowser's Challenge:</strong> Una carrera de realidad aumentada.
+                        </li>
+                        <li>
+                            <strong class="text-yellow-300 cursor-pointer" data-image="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-super-nintendo-world-mine-cart-madness-render-a.jpg">Donkey Kong Mine Cart Madness:</strong> Una emocionante montaña rusa.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="dragon" class="mb-12 p-8 rounded-xl bg-gray-800 shadow-xl">
+            <h2 class="text-3xl font-bold text-white mb-4">How to Train Your Dragon - Isle of Berk</h2>
+            <p class="text-gray-300 mb-6">Únete a los vikingos y a sus dragones en una aventura voladora. Experiencia la libertad de volar como un dragón sobre la Isla de Berk.</p>
+            <div class="flex flex-col md:flex-row gap-6 items-center">
+                <img src="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-httyd-isle-of-berk-hiccups-wing-gliders-gronckles-a.jpg" alt="Atracción Dragones" class="rounded-xl shadow-lg w-full md:w-1/2">
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-white mb-2">Atracción Principal</h3>
+                    <p class="text-gray-300">
+                        <strong class="text-yellow-300">Hiccup's Wing Gliders:</strong> Una montaña rusa que te simula el vuelo de un dragón.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="dark-universe" class="mb-12 p-8 rounded-xl bg-gray-800 shadow-xl">
+            <h2 class="text-3xl font-bold text-white mb-4">Dark Universe</h2>
+            <p class="text-gray-300 mb-6">Entra en un mundo gótico y espeluznante inspirado en los monstruos clásicos de Universal. Descubre los secretos que se esconden en la noche.</p>
+            <div class="flex flex-col md:flex-row gap-6 items-center">
+                <img id="dark-universe-image" src="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-dark-universe-mutfe-characters-render-a.jpg" alt="Atracción Monstruos" class="rounded-xl shadow-lg w-full md:w-1/2">
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-white mb-2">Atracciones</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>
+                            <strong class="text-yellow-300 cursor-pointer" data-image="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-dark-universe-mutfe-characters-render-a.jpg">Monsters Unchained: The Frankenstein Experiment:</strong> Un intenso viaje oscuro lleno de criaturas legendarias.
+                        </li>
+                        <li>
+                            <strong class="text-yellow-300 cursor-pointer" data-image="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-dark-universe-curse-of-the-werewolf-interior-render-a.jpg">Curse of the Werewolf:</strong> Una emocionante montaña rusa en la que zigzaguearás por el bosque para escapar de una manada de hombres lobo.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Gastronomía -->
+        <section id="gastronomia" class="mb-12 p-8 rounded-xl bg-gray-800 shadow-xl">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-10 text-white">Gastronomía</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="p-6 bg-gray-700 rounded-xl shadow-md">
+                    <img src="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/ueu-wwohp-mom-cafe-lair-de-la-sirene-butterbeer-crepe-a.jpg" alt="Comida Temática" class="rounded-xl shadow-lg mb-4 w-full">
+                    <h3 class="text-2xl font-semibold text-white mb-2">Comida Temática</h3>
+                    <p class="text-gray-300">Cada mundo ofrece opciones gastronómicas que te sumergen en la historia. Disfruta de la cerveza de mantequilla en el Ministerio de Magia o de un plato vikingo en la Isla de Berk.</p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded-xl shadow-md">
+                    <img src="https://www.universalorlando.com/webdata/k2/es/us/files/Images/gds/hgh-hotel-logo-charred-octopus-a.jpg" alt="Helios Grand Hotel" class="rounded-xl shadow-lg mb-4 w-full">
+                    <h3 class="text-2xl font-semibold text-white mb-2">Helios Grand Hotel</h3>
+                    <p class="text-gray-300">Los visitantes pueden disfrutar de opciones gastronómicas divinas, como el Bar Helios con sus inigualables vistas de Universal Epic Universe. El restaurante Flora Taverna ofrece un desayuno buffet completo, comidas mediterráneas y mucho más.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Sección de Planificación -->
+        <section id="planifica" class="mb-12 p-8 rounded-xl bg-gray-800 shadow-xl">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-10 text-white">Planifica Tu Viaje</h2>
+            <div class="flex flex-col md:flex-row gap-8 items-start">
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Cómo Llegar</h3>
+                    <a href="https://www.google.com/maps/dir/Orlando+International+Airport,+1+Jeff+Fuqua+Blvd,+Orlando,+FL+32827,+EE.+UU./Universal+Epic+Universe,+4599+W+Sand+Lake+Rd,+Orlando,+FL+32819,+EE.+UU./" target="_blank" class="block rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg" alt="Logo de Google Maps" class="h-24 w-auto mx-auto p-4">
+                    </a>
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Consejos Prácticos</h3>
+                    <ul class="list-disc list-inside text-gray-300 space-y-3">
+                        <li>
+                            <strong class="text-yellow-300">Aplicación Móvil:</strong> Descarga la app oficial para ver los tiempos de espera y mapas interactivos.
+                        </li>
+                        <li>
+                            <strong class="text-yellow-300">Universal Express:</strong> Considera adquirir un pase para saltar las filas en las atracciones más populares.
+                        </li>
+                        <li>
+                            <strong class="text-yellow-300">Restricciones de Altura:</strong> Revisa las restricciones de cada atracción antes de tu visita.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-center py-6 mt-8 rounded-t-2xl">
+        <p class="text-gray-400">&copy; Alumno Inmersión IA - Alura-Google Gemini - Clase 1. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
